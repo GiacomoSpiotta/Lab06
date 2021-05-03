@@ -1,15 +1,13 @@
 package it.polito.tdp.meteo.model;
 
 import java.util.List;
+import java.util.Map;
 
 public class Citta {
-	
 	
 	private String nome;
 	private List<Rilevamento> rilevamenti;
 	private int counter = 0;
-	
-	
 	
 	public Citta(String nome) {
 		this.nome = nome;
